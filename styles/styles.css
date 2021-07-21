@@ -50,10 +50,15 @@ img {
     display: none;
 
     position: absolute;
-    right: 7%;
+    align-items: center;
+    right: 20px;
     top: 100px;
 
-    padding: 30px 100px;
+    width: 70%;
+
+    z-index: 1;
+
+    padding: 30px 20px;
 
     font-family: var(--main-font);
     font-weight: 600;
@@ -69,7 +74,8 @@ img {
 }
 
 .btn-contact {
-    padding: 20px 38px;
+    padding: 20px 30px;
+    width: fit-content;
 
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -310,7 +316,9 @@ article {
 }
 
 .show {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media (min-width: 768px) {
