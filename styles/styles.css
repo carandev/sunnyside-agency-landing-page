@@ -48,6 +48,7 @@ img {
 
 .navbar__menu {
     display: none;
+    justify-content: flex-end;
 
     position: absolute;
     align-items: center;
